@@ -68,9 +68,9 @@
     <a href="<?php  echo base_url() ?>retur/retur_pembelian" class="w3-bar-item w3-button"><span class="material-icons ">update</span> Retur Pembelian</a>
     <a href="<?php  echo base_url() ?>retur/retur_konsinyasi" class="w3-bar-item w3-button"><span class="material-icons ">update</span> Retur Konsinyasi</a>
     <a href="<?php  echo base_url() ?>pasien" class="w3-bar-item w3-button"><span class="material-icons ">person</span> Pasien</a>
-    <a href="<?php  echo base_url() ?>dokter" class="w3-bar-item w3-button"><span class="material-icons ">person</span> Dokter</a>
+    <a href="<?php  echo base_url() ?>dokter" class="w3-bar-item w3-button"><span class="material-icons ">person</span> Dokter</a> -->
     <a href="<?php  echo base_url() ?>user" class="w3-bar-item w3-button"><span class="material-icons ">person</span> User</a>
-    <a href="<?php  echo base_url() ?>pengaturan" class="w3-bar-item w3-button"><span class="material-icons ">settings</span> Pengaturan</a> -->
+   <!--  <a href="<?php  echo base_url() ?>pengaturan" class="w3-bar-item w3-button"><span class="material-icons ">settings</span> Pengaturan</a> -->
     <a href="<?php  echo base_url() ?>authentication/logout" class="w3-bar-item w3-button"><span class="material-icons ">launch</span> Logout</a>
   </div>
 
