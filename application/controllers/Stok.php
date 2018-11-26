@@ -146,34 +146,5 @@ class Stok extends CI_Controller {
 		echo json_encode(array("status" => TRUE));
 	}
 
-	// public function ubahStok()
-	// {
-	// 	if($this->session->jenis == 'supervisor'){
-	// 		$id_produk = explode("|", $this->input->post('id_produk'));
-	// 		$id_distributor =  explode("|", $this->input->post('id_distributor'));
-
-	// 		$data = array(
-	// 				'kode_produksi' => $this->input->post('kode_produksi'),
-	// 				'status' =>  $this->input->post('status'),
-	// 				'id_produk' => $id_produk[0],
-	// 				'id_distributor' => $id_distributor[0],
-	// 				'jumlah' => $this->input->post('jumlah'),
-	// 				'harga' => $this->input->post('harga'),
-	// 				'tanggal_datang' => $this->input->post('tanggal_datang'),
-	// 				'tanggal_kadaluarsa' => $this->input->post('tanggal_kadaluarsa'),
-	// 				'tanggal_jatuh_tempo' => $this->input->post('tanggal_jatuh_tempo'),
-	// 			);
-	// 		$this->stok->ubahDataStok(array('id_stok' => $this->input->post('id_stok')), $data);
-	// 		echo json_encode(array("status" => TRUE));
-	// 	}else{
-	// 		echo json_encode(array("status" => TRUE));
-	// 	}
-	// }
-
-	// public function hapusStok($id)
-	// {
-	// 	$this->stok->hapusDataStok($id);
-	// 	echo json_encode(array("status" => TRUE));
-	// }
 
 }
