@@ -49,7 +49,7 @@
   <!-- Sidebar -->
   <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
     <h3 class="w3-bar-item">Menu</h3>
-    <a href="<?php  echo base_url() ?>penjualan" class="w3-bar-item w3-button"><span class="material-icons">  shopping_basket</span> Penjualan</a>
+    <!-- <a href="<?php  echo base_url() ?>penjualan" class="w3-bar-item w3-button"><span class="material-icons">  shopping_basket</span> Penjualan</a>
     <a href="<?php  echo base_url() ?>retur/retur_penjualan" class="w3-bar-item w3-button"><span class="material-icons">restore</span> Retur Penjualan</a>
     <a href="<?php  echo base_url() ?>kasir" class="w3-bar-item w3-button"><span class="material-icons">account_balance_wallet</span> Kasir</a>
     <a href="<?php  echo base_url() ?>tagihan" class="w3-bar-item w3-button"><span class="material-icons">receipt</span> Tagihan</a>
@@ -61,16 +61,16 @@
     <a href="<?php  echo base_url() ?>keuangan/keuangan_masuk" class="w3-bar-item w3-button"><span class="material-icons">call_received</span> Keuangan Masuk</a>
     <a href="<?php  echo base_url() ?>resep" class="w3-bar-item w3-button"><span class="material-icons">description</span> Resep</a>
     <a href="<?php  echo base_url() ?>produk" class="w3-bar-item w3-button"><span class="material-icons ">extension</span> Produk</a>
-    <a href="<?php  echo base_url() ?>distributor" class="w3-bar-item w3-button"><span class="material-icons ">local_shipping</span> Distributor</a>
+    <a href="<?php  echo base_url() ?>distributor" class="w3-bar-item w3-button"><span class="material-icons ">local_shipping</span> Distributor</a> -->
     <a href="<?php  echo base_url() ?>stok" class="w3-bar-item w3-button"><span class="material-icons ">folder</span> Stok</a>
-    <a href="<?php  echo base_url() ?>stok_opname" class="w3-bar-item w3-button"><span class="material-icons ">view_list</span> Stok Opname</a>
+    <!-- <a href="<?php  echo base_url() ?>stok_opname" class="w3-bar-item w3-button"><span class="material-icons ">view_list</span> Stok Opname</a>
     <a href="<?php  echo base_url() ?>permintaan_produk" class="w3-bar-item w3-button"><span class="material-icons ">shopping_cart</span> Permintaan Produk</a>
     <a href="<?php  echo base_url() ?>retur/retur_pembelian" class="w3-bar-item w3-button"><span class="material-icons ">update</span> Retur Pembelian</a>
     <a href="<?php  echo base_url() ?>retur/retur_konsinyasi" class="w3-bar-item w3-button"><span class="material-icons ">update</span> Retur Konsinyasi</a>
     <a href="<?php  echo base_url() ?>pasien" class="w3-bar-item w3-button"><span class="material-icons ">person</span> Pasien</a>
     <a href="<?php  echo base_url() ?>dokter" class="w3-bar-item w3-button"><span class="material-icons ">person</span> Dokter</a>
     <a href="<?php  echo base_url() ?>user" class="w3-bar-item w3-button"><span class="material-icons ">person</span> User</a>
-    <a href="<?php  echo base_url() ?>pengaturan" class="w3-bar-item w3-button"><span class="material-icons ">settings</span> Pengaturan</a>
+    <a href="<?php  echo base_url() ?>pengaturan" class="w3-bar-item w3-button"><span class="material-icons ">settings</span> Pengaturan</a> -->
     <a href="<?php  echo base_url() ?>authentication/logout" class="w3-bar-item w3-button"><span class="material-icons ">launch</span> Logout</a>
   </div>
 
