@@ -5,6 +5,9 @@
     </center>
 
     <button class="btn btn-success" onclick="tambah_bebas()"><i class="material-icons">toll</i> Tambah Bebas</button>    
+    <button class="btn btn-warning" onclick="tambah_resep('tunggal')"><i class="material-icons">description</i> Tambah Resep Tunggal</button>
+    <button class="btn btn-danger" onclick="tambah_resep('racikan')"><i class="material-icons">description</i> Tambah Resep Racikan</button>
+    <button class="btn btn-primary" onclick="tambah_tarik_resep()"><i class="material-icons">description</i> Tarik Copy Resep</button>
     <button class="btn btn-info" onclick="total_tagihan()"><i class="material-icons">receipt</i> Total Tagihan & Bayar</button>
 
     <br />
@@ -673,11 +676,15 @@
         }
 
         //tambah form not tunai
-<<<<<<< HEAD
-       
-=======
-      
->>>>>>> viewKasir
+        function tambah_non_tunai(jenis) {
+            if(jenis == 'debit'){
+                $('#div_non_tunai_debit').attr("hidden", false);
+                $('#btnTambahDebit').attr("hidden", true);
+            }else{
+                $('#div_non_tunai_kredit').attr("hidden", false);
+                $('#btnTambahKredit').attr("hidden", true);
+            }
+        }
 
         //button bayar
         function bayar() {
@@ -894,11 +901,8 @@
                             </div>
                             <div class="col-md-9">
                                 <center>
-<<<<<<< HEAD
-                                    
-=======
-                                   
->>>>>>> viewKasir
+                                    <button type="button" id="btnTambahDebit" onclick="tambah_non_tunai('debit')" class="btn btn-primary">Tambah Debit</button>
+                                    <button type="button" id="btnTambahKredit" onclick="tambah_non_tunai('kredit')" class="btn btn-primary">Tambah Kredit</button>
                                 </center>
                             </div>
                         </div>
