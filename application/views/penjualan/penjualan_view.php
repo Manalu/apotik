@@ -673,15 +673,7 @@
         }
 
         //tambah form not tunai
-        function tambah_non_tunai(jenis) {
-            if(jenis == 'debit'){
-                $('#div_non_tunai_debit').attr("hidden", false);
-                $('#btnTambahDebit').attr("hidden", true);
-            }else{
-                $('#div_non_tunai_kredit').attr("hidden", false);
-                $('#btnTambahKredit').attr("hidden", true);
-            }
-        }
+       
 
         //button bayar
         function bayar() {
@@ -898,8 +890,7 @@
                             </div>
                             <div class="col-md-9">
                                 <center>
-                                    <button type="button" id="btnTambahDebit" onclick="tambah_non_tunai('debit')" class="btn btn-primary">Tambah Debit</button>
-                                    <button type="button" id="btnTambahKredit" onclick="tambah_non_tunai('kredit')" class="btn btn-primary">Tambah Kredit</button>
+                                    
                                 </center>
                             </div>
                         </div>
