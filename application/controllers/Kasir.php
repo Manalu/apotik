@@ -70,8 +70,29 @@ class Kasir extends CI_Controller {
 		echo json_encode($data);
 	}
 
+	public function tambahPembukaanKasir()
+	{
 
-
+		$data = array(
+				'jenis' => 'pembukaan',
+				'logam_100' => $this->input->post('logam_100'),
+				'logam_200' => $this->input->post('logam_200'),
+				'logam_500' => $this->input->post('logam_500'),
+				'logam_1000' => $this->input->post('logam_1000'),
+				'kertas_1000' => $this->input->post('kertas_1000'),
+				'kertas_2000' => $this->input->post('kertas_2000'),
+				'kertas_5000' => $this->input->post('kertas_5000'),
+				'kertas_10000' => $this->input->post('kertas_10000'),
+				'kertas_20000' => $this->input->post('kertas_20000'),
+				'kertas_50000' => $this->input->post('kertas_50000'),
+				'kertas_100000' => $this->input->post('kertas_100000'),
+				'tanggal' => date("Y-m-d"),
+				'waktu' => date("h:i:s"),
+				'persetujuan' => 'belum',
+			);
+		$insert = $this->kasir->tambahDataKasir($data);
+		echo json_encode(array("status" => TRUE));
+	}
 
 		public function tambahPenutupanKasir()
 		{
@@ -106,5 +127,25 @@ class Kasir extends CI_Controller {
 			}
 		}
 
-
+		public function ubahKasir()
+		{
+			$data = array(
+					'logam_100' => $this->input->post('logam_100'),
+					'logam_200' => $this->input->post('logam_200'),
+					'logam_500' => $this->input->post('logam_500'),
+					'logam_1000' => $this->input->post('logam_1000'),
+					'kertas_1000' => $this->input->post('kertas_1000'),
+					'kertas_2000' => $this->input->post('kertas_2000'),
+					'kertas_5000' => $this->input->post('kertas_5000'),
+					'kertas_10000' => $this->input->post('kertas_10000'),
+					'kertas_20000' => $this->input->post('kertas_20000'),
+					'kertas_50000' => $this->input->post('kertas_50000'),
+					'kertas_100000' => $this->input->post('kertas_100000'),
+					'tanggal' => date("Y-m-d"),
+					'waktu' => date("h:i:s"),
+					'persetujuan' => 'belum',
+				);
+			$this->kasir->ubahDataKasir(array('id_kasir' => $this->input->post('id_kasir')), $data);
+			echo json_encode(array("status" => TRUE));
+		}
 }

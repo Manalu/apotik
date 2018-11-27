@@ -6,6 +6,7 @@
             </center>
             <button class="btn btn-success" onclick="tambah_penutupan_kasir()"><i class="glyphicon glyphicon-plus"></i> Tambah Penutupan Kasir</button>
             <span></span>
+            <button class="btn btn-success" onclick="tambah_pembukaan_kasir()"><i class="glyphicon glyphicon-plus"></i> Tambah Pembukaan Kasir</button>
             <br />
             <br />
             <br />
@@ -138,6 +139,16 @@ function tambah_penutupan_kasir()
     $('.modal-title').text('Tambah Penutupan Kasir'); // Set Title to Bootstrap modal title
 }
 
+function tambah_pembukaan_kasir()
+{
+    save_method = 'add';
+    jenis = 'pembukaan';
+    $('#form')[0].reset(); // reset form on modals
+    $('.form-group').removeClass('has-error'); // clear error class
+    $('.help-block').empty(); // clear error string
+    $('#modal_form').modal('show'); // show bootstrap modal
+    $('.modal-title').text('Tambah Pembukaan Kasir'); // Set Title to Bootstrap modal title
+}
 
 function ubah_kasir(id)
 {
