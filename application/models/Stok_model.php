@@ -22,6 +22,7 @@ class Stok_model extends CI_Model {
 		$this->db->join('produk', 'stok.id_produk = produk.id_produk');
 		$this->db->join('distributor', 'stok.id_distributor = distributor.id_distributor');
 
+//bug
 		$i = 0;
 
 		foreach ($this->column_search as $item) // loop column
