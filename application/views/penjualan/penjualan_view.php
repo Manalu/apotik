@@ -673,7 +673,11 @@
         }
 
         //tambah form not tunai
+<<<<<<< HEAD
        
+=======
+      
+>>>>>>> viewKasir
 
         //button bayar
         function bayar() {
@@ -890,7 +894,11 @@
                             </div>
                             <div class="col-md-9">
                                 <center>
+<<<<<<< HEAD
                                     
+=======
+                                   
+>>>>>>> viewKasir
                                 </center>
                             </div>
                         </div>
