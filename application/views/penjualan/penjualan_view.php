@@ -878,27 +878,6 @@
                                 <input type="text" name="tunai" id="nomorKartuDebit" class="form-control"/>
                             </div>
                         </div>
-                        <div class="form-group" id="div_non_tunai_kredit" hidden="true">
-                            <label class="control-label col-md-3">Kredit (Rp.)</label>
-                            <div class="col-md-4">
-                                <input type="text" name="tunai" id="kredit" class="form-control"/>
-                            </div>
-                            <label class="control-label col-md-1">No</label>
-                            <div class="col-md-4">
-                                <input type="text" name="tunai" id="nomorTransaksiKredit" class="form-control"/>
-                            </div>
-                            <label class="control-label col-md-3">Bank</label>
-                            <div class="col-md-4">
-                                <input type="text" name="tunai" id="kartuKredit" class="form-control"/>
-                            </div>
-                            <label class="control-label col-md-1">No</label>
-                            <div class="col-md-4">
-                                <input type="text" name="tunai" id="nomorKartuKredit" class="form-control"/>
-                            </div>
-                        </div>
-                        <div class="form-group" id="btnTambahNonTunai">
-                            <div class="col-md-3">
-                            </div>
                             <div class="col-md-9">
                                 <center>
                                     <button type="button" id="btnTambahDebit" onclick="tambah_non_tunai('debit')" class="btn btn-primary">Tambah Debit</button>
