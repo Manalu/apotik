@@ -137,18 +137,6 @@ class Penjualan extends CI_Controller {
 			$insert = $this->keuangan->tambahDataKeuanganMasuk($data);
 		}	
 
-		if($kredit[0] != ''){
-			$data = array(
-				'id_keuangan' => $id_keuangan,
-				'alat_transaksi' => 'kredit',
-				'jumlah_uang' => $kredit[0],
-				'kartu' => $kredit[2],
-				'nomor_transaksi' => $kredit[1],
-				'nomor_kartu' => $kredit[3],
-			);
-			$insert = $this->keuangan->tambahDataKeuanganMasuk($data);
-		}
-
 		if($tunai != ''){
 			$data = array(
 				'id_keuangan' => $id_keuangan,
