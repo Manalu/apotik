@@ -17,11 +17,7 @@ class Stok_model extends CI_Model {
 
 	private function _get_datatables_query()
 	{
-		$this->db->select('stok.id_stok, stok.kode_produksi as kode_produksi,stok.status as status, produk.nama as nama_produk, distributor.nama as nama_distributor, stok.jumlah as jumlah, stok.harga as harga, stok.tanggal_datang as tanggal_datang, stok.tanggal_kadaluarsa as tanggal_kadaluarsa, stok.tanggal_jatuh_tempo as tanggal_jatuh_tempo');
-		$this->db->from('stok');
-		$this->db->join('produk', 'stok.id_produk = produk.id_produk');
-		$this->db->join('distributor', 'stok.id_distributor = distributor.id_distributor');
-
+		
 		$i = 0;
 
 		foreach ($this->column_search as $item) // loop column
