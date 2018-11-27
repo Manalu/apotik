@@ -49,9 +49,9 @@
   <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
     <h3 class="w3-bar-item">Menu</h3>
     <a href="<?php  echo base_url() ?>penjualan" class="w3-bar-item w3-button"><span class="material-icons">  shopping_basket</span> Penjualan</a>
-    <!-- <a href="<?php  echo base_url() ?>retur/retur_penjualan" class="w3-bar-item w3-button"><span class="material-icons">restore</span> Retur Penjualan</a>
+    <!-- <a href="<?php  echo base_url() ?>retur/retur_penjualan" class="w3-bar-item w3-button"><span class="material-icons">restore</span> Retur Penjualan</a> -->
     <a href="<?php  echo base_url() ?>kasir" class="w3-bar-item w3-button"><span class="material-icons">account_balance_wallet</span> Kasir</a>
-    <a href="<?php  echo base_url() ?>tagihan" class="w3-bar-item w3-button"><span class="material-icons">receipt</span> Tagihan</a>
+    <!-- <a href="<?php  echo base_url() ?>tagihan" class="w3-bar-item w3-button"><span class="material-icons">receipt</span> Tagihan</a>
     <a href="<?php  echo base_url() ?>piutang" class="w3-bar-item w3-button"><span class="material-icons">credit_card</span> Piutang</a>
     <a href="<?php  echo base_url() ?>keuangan/keuangan_keluar" class="w3-bar-item w3-button"><span class="material-icons">call_made</span> Keuangan Keluar</a>
     <a href="<?php  echo base_url() ?>keuangan/keuangan_masuk" class="w3-bar-item w3-button"><span class="material-icons">call_received</span> Keuangan Masuk</a>
