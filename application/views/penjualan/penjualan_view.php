@@ -5,9 +5,6 @@
     </center>
 
     <button class="btn btn-success" onclick="tambah_bebas()"><i class="material-icons">toll</i> Tambah Bebas</button>    
-    <button class="btn btn-warning" onclick="tambah_resep('tunggal')"><i class="material-icons">description</i> Tambah Resep Tunggal</button>
-    <button class="btn btn-danger" onclick="tambah_resep('racikan')"><i class="material-icons">description</i> Tambah Resep Racikan</button>
-    <button class="btn btn-primary" onclick="tambah_tarik_resep()"><i class="material-icons">description</i> Tarik Copy Resep</button>
     <button class="btn btn-info" onclick="total_tagihan()"><i class="material-icons">receipt</i> Total Tagihan & Bayar</button>
 
     <br />
